@@ -1,0 +1,781 @@
+/************************* 
+     Max-width:1460px
+**************************/
+@media (max-width: 1460px) {
+  .aboutContainer {
+    width: calc(1200px + (100vw - 1200px) / 2)
+  }
+}
+/************************* 
+     Max-width:1200px
+**************************/
+@media (max-width: 1200px) {
+  .homeBody .top{
+    min-height: 760px;
+    background-position:  38% center;
+  }
+  .aboutContainer {
+    width: 100%;
+  }
+  .aboutContainer:nth-child(even) .aboutImg {
+    margin-right: 65px;
+  }
+  .aboutContainer:nth-child(odd) .aboutImg {
+    margin-left: 65px;
+}
+  .aboutImg .imgNum{
+    font-size: 65px;
+  }
+  .counter, .hidden{
+    font-size: 35px;
+  }
+  .counterWrapper{
+    height: 120px;
+  }
+  .counterIcon {
+    width: 50px;    
+    margin-left: 33px;
+  }
+  .unit{
+    font-size: 16px;
+  }
+  .partnerText{
+    margin-right: 6%;
+  }
+  .missionMethod{
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .join h2{
+    font-size: 75px;
+  }
+  .popUp .video {
+    width: 600px;
+    height: 338px;
+  }
+  /*Blog*/
+  .blogMenu li {
+    margin: 0 6px;
+  }
+  .blogMenu a{
+    padding: 12px 10px;
+    font-size: 18px;
+  }
+} 
+/************************* 
+     Max-width:1024px
+**************************/
+@media (max-width: 1024px) {
+  .logo{
+    /*margin-right: 30px;*/
+  }  
+  .mainMenu>ul>li{
+    margin-right: 30px;
+  }
+  .btn a{
+    padding: 10px 20px 11px;
+  }
+  .homeBody .top {
+    min-height: 700px;
+  }
+  .aboutContainer{
+    justify-content: center;
+  }
+  .aboutText{
+    order: 2;
+    margin-top: 85px;
+  }
+  .aboutContainer{
+    flex-wrap: wrap;
+  }
+  .about .aboutContainer .imgNum{
+    right: auto;
+    left: 20%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+  }
+  .aboutContainer:nth-child(odd) .aboutImg{
+    order: 1;
+  }
+  .aboutContainer:nth-child(even) .aboutText {
+    padding-left: 20px;;
+  }
+  .aboutContainer:nth-child(odd) .aboutText{
+    padding-right: 20px;
+  }
+  .volume p{
+    padding: 0 13px;
+  }
+  .partnerText {
+    max-width: 590px;
+    margin-right: 0;
+  }
+  .partnerContainer{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .partnerVideo{
+    flex-basis: 100%;
+    margin-top: 50px;
+  }
+  .counterWrapper {
+    height: 90px;
+  }
+  .counterIcon{
+    width: 40px;
+    margin-left: 24px;
+    margin-right: 13px;
+  }
+  .coffeeIcon{
+    height: 34px;
+  }
+  .shipIcon {
+    height: 32px;
+  }
+  .mileIcon {
+    height: 30px;
+  }
+  .counter, .hidden {
+    font-size: 27px;
+  }
+  .missionMethod {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .missionHeading{
+    font-size: 20px;
+  }
+  .positionsContainer>div{
+    padding: 24px 10px;
+  }
+  .positionHeading{
+    font-size: 22px;
+  }
+  .schedule{
+    font-size: 14px;
+  }
+  .apply{
+    font-size: 14px;
+  }
+  .apply:after{
+    margin-left: 10px;
+  }
+  .vacancyLink{
+    font-size: 20px;
+  }
+  .vacancyLink:before{
+    margin-right: 15px;
+  }
+  .perks .title {
+    text-align: center;
+  }
+  .perksContainer>div{
+    flex-basis: 47%;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+  .perkIcon{
+    margin-right: 30px;
+  }
+  .blogContainer{
+    padding: 13px;
+  }
+  .blogContainer img{
+    margin-right: 30px;
+  }
+  .heading{
+    font-size: 30px;
+  }
+  .blogWrapper img{
+    margin-right: 18px;
+  }
+  .blogHeading{
+    font-size: 20px;
+  }
+  .join h2{
+    max-width: 430px;
+    margin-right: 25px;
+    font-size: 56px;
+  }
+  .joinBtn{
+    padding: 17px 15px 19px;
+    font-size: 16px;
+  }
+  .blogText .text{
+    font-size: 14px;
+  }
+  .footerMenu li {
+    padding: 0 18.5px;
+  }
+  .address {
+    margin: 0 20px 0 40px;
+  }
+  /*Team  */
+  .titleContainer h2{
+    font-size: 90px;
+  }
+  .ninjaProfile {
+    flex-basis: 33.3333%;
+  }
+  .ninjaName{
+    font-size: 22px;
+  }
+  .ninjaPosition{
+    font-size: 16px;
+  }
+  .ninjaTeam{
+    font-size: 16px;
+  }
+  /*Vacancy*/
+  .vacancyMain{
+    padding: 20px;
+  }
+  .vacancyMain .text {
+    margin-bottom: 30px;
+  }
+  .vacancyPage .container{
+    padding-bottom: 80px;
+  }
+  .vacancyPage .titleContainer {
+    margin-bottom: 60px;
+  } 
+  /*Blog*/
+  .blogMenu a{
+    font-size: 15px;
+  }
+}
+/************************* 
+     Max-width:767px
+**************************/
+@media (max-width: 767px) {
+  header .container{
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .homeBody .top{
+    min-height: 600px;
+  }
+  .mainMenu{
+    display: none;
+  }  
+  .burgerMenu {
+    display: block;
+  }  
+  header .btn{
+    display: none;
+  }
+  .sloganContainer .btn a {
+    min-width: 190px;
+  } 
+  .about .container {
+    padding-top: 50px;
+  }
+  .title{
+    font-size: 24px;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .text{
+    font-size: 16px;
+  }
+  .aboutContainer{
+    margin-bottom: 50px;
+  }
+  .aboutTitle{
+    margin-bottom: 50px;
+  }
+  .aboutImg .imgNum {
+    font-size: 75px;
+  }
+  .aboutContainer:nth-child(even) .aboutImg {
+    margin-right: 40px;
+  }
+  .aboutContainer:nth-child(odd) .aboutImg{
+    margin-left: 40px;
+  }
+   .popUp{
+    width: 100%;
+   }
+  .popUp .video {
+    width: 100%;
+    
+  }
+  .growth{
+    flex-wrap: wrap;    
+    margin-bottom: 40px;
+    border-left: 9px solid #F6F6F6;
+  }
+  .growth>div{
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .bar{
+    flex-basis: 45%;
+    /*background-position: center center;*/
+    height: 260px;    
+    border-bottom: none;
+    background-size: 80%;
+    background-position: 95% center;
+    box-sizing: border-box;
+  }
+  .bar:after{
+    bottom: 50%;
+    left: -4px;
+    transform: translate(-50%, 50%);
+  }
+  .growthText{
+    flex-basis: 45%;
+  }
+  .year{
+    text-align: left;
+  }
+  .growth>*{
+    text-align: left;
+  }
+  .partnerContainer .heading span{
+    display: block;
+  }
+  .about{
+    padding-bottom: 100px;
+  }
+  .statistics .container{
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .counterWrapper{
+    flex-basis: 100%;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+  }
+  .counterWrapper {
+    height: 106px;
+  }
+  .counter, .hidden {
+    font-size: 33px;
+  }
+  .unit {
+    font-size: 14px;
+  }
+  .counterIcon {
+    margin-left: 31px;
+    margin-right: 25px;
+  }
+  .mission .container {
+    padding-top: 100px;
+  }
+  .mission .title {
+    margin-bottom: 30px;
+  }
+  .missionText{
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .missionText .text {
+    flex-basis: 100%;
+  }
+  .missionText .text:first-of-type{
+    margin-bottom: 30px;
+  }
+  .video{
+    height: 250px;
+    margin-bottom: 50px;
+  }
+  .videoBtn{
+    width: 65px;
+    height: 65px;
+  }
+  .missionMethods{
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    flex-flow: column;
+    align-items: center;
+  }
+  .missionMethod{
+    /*flex-basis: 100%;*/
+    max-width: 305px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .missionIcon {
+    width: 70px;
+    height: 60px;
+  }
+  .cool .container {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  .cool .title {
+    margin-bottom: 30px;
+  }
+  .cool .text{
+    margin-bottom: 50px;
+  } 
+  .slick-prev, .slick-next{
+    width: 35px !important;
+    height: 35px !important;
+    border-width: 2px !important;
+  }
+  .slick-prev:before, .slick-next:before{
+    border-width: 0px 2px 2px 0;
+    padding: 3px;
+  }
+  .slick-prev {
+    left: 15px !important;
+  }
+  .slick-next {
+    right: 15px !important;
+}
+  .vacancies .container {
+    padding-top: 100px;
+    padding-bottom: 75px;
+  }
+
+  .vacancies .title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .positionsContainer{
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    align-items:  center;
+  }
+  .positionsContainer>div{
+    /*flex-basis: 100%;*/
+    width: 100%;
+    /*max-width: 305px;*/
+    min-height: 150px;
+    margin-bottom: 25px;
+    padding: 19px;
+  }
+  .vacancySidebar .position{
+    max-width: 320px; 
+  }
+  .positionsContainer .accardion{
+    margin-top: 55px;
+    /*padding: 0;*/
+  }
+  .jobNeeds {
+    margin: 30px 0;
+}
+  .positionHeading {
+    font-size: 18px;
+  }
+  .position .text {
+    font-size: 14px;
+  }
+  .schedule:before{
+    width: 20px;
+    height: 20px;
+  }
+  .vacancyLink {
+    font-size: 18px;
+  }
+  .vacancyLink:before {
+    width: 39px;
+    height: 39px;
+    margin-right: 19px;
+  }
+  .perks{
+    padding-bottom: 40px;
+  }
+  .perksContainer{
+    flex-direction: column;
+    align-items:  center;
+  }
+  .perksContainer>div{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*max-width: 305px;*/
+  }
+  .perksContainer>div{
+    margin-right: 0
+  }
+  .perks .title {
+    margin-bottom: 30px;
+  }
+  .perkIcon {
+    margin-right: 42px;
+  }
+  .blog .container {
+    padding-top: 50px;
+  }
+  .blog .title {
+    margin-bottom: 30px;
+  }
+  .big{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .big img {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 22px;
+  }
+  .blogText{
+    width: 100%;
+  }
+  .big .text:first-of-type{
+    margin-bottom: 30px;
+  }
+  .blogWrapper {
+    flex-flow: column;
+    max-width: 360px;
+  }
+  /*.blogWrapper>div {
+      flex-basis: 100%;
+  }*/
+  .blogWrapper img {
+    width: 120px;}
+  .blogHeading {    
+    padding-top: 7px;
+    font-size: 18px;
+  }  
+  .join .container{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+  }
+  .join h2 {
+    flex-basis: 100%;
+    margin-right: 0px;
+    font-size: 45px;
+  }
+  .joinBtn{
+    width: 100%;
+    max-width: 212px;
+    margin: 30px 0 0 auto;
+    padding: 12px 24px;
+  }
+  .joinBtn span{
+    margin-right: 16px;
+  }
+  .footerLogo>a {
+    width: 40px;
+  }
+  footer .container{
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .footerMenu{
+    order: 3;
+    flex-basis: 100%;
+    /*justify-content: space-between;*/
+    margin-top: 35px;    
+  }
+  .footerMenu li {
+    padding: 0 10px;
+  }
+  .footerMenu a{
+    font-size: 14px;
+  }
+  .contactContainer{
+    order: 4;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 31px;
+  }
+  .address{
+    margin-top: 6px;
+    text-align: center;
+  }
+  .copy{
+    margin: 30px auto 0;
+    /*text-align: center;*/
+  }
+  /*Blog*/
+  .blogBody .burgerMenu span, .blogBody .burgerMenu:before, .blogBody .burgerMenu:after{
+    background-color: #0C0B0B;
+  }
+  .blogMenu{
+    display: none;
+  }
+  .blogSelect{
+    display: block;
+  }
+  /*Team*/
+  .teamPage .container {
+    padding-top: 60px;
+  }
+  .ninjaHead{
+    flex-wrap: wrap;
+    max-width: 305px;
+    margin-bottom: 51px;
+  }
+  
+  .titleContainer{
+    flex-basis: 100%;
+  }
+  .titleContainer h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  .ninjaHead .btn{
+    flex-basis: 100%;
+    max-width: 195px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  .ninjaName {
+    font-size: 18px;
+  }
+  .ninjaPosition {
+    font-size: 14px;
+  }
+  .ninjaTeam {
+    font-size: 14px;
+  }
+  /*Vacancy*/
+  .vacancyPage .container{
+    padding-top: 60px;
+  }
+  .jobNeeds li{
+    font-size: 16px;
+  }
+  .perksContainer {
+    justify-content: center; 
+  }
+  .perksContainer>div{
+    max-width: 330px; 
+    margin-right: 25px;
+  }
+  .vacancyPage .titleContainer {
+    margin-bottom: 50px;
+  }
+
+  .vacancySidebar {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+  .vacancySidebar .position{
+    margin-bottom: 20px;
+  }
+  .vacancyMain{
+    display: none;
+  }
+  .apply:after{
+    transform: rotate(90deg);
+  }
+  .position.clicked .apply:after{
+    transform: rotate(-90deg);
+  }
+}
+/************************* 
+     Max-width:480px
+*************************/
+@media (max-width: 480px) {
+  .homeBody .top{
+   background-position: 45% center;
+  }
+  .sloganContainer{
+    top: 30%;
+   /* top: 52%;
+    transform: none;*/
+  }
+  .sloganContainer h1 {
+    margin-bottom: 20px;}
+  .sloganContainer h1{
+    font-size: 32px;
+  }
+  .btnContainer{
+    flex-flow: column;
+    max-width: 160px
+  }
+  .btnContainer a:first-child {
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+  .sloganContainer .btn a {
+    min-width: 145px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .btn a{    
+    font-size: 15px;
+  }
+  .watchBtn span{
+    margin-right: 11px
+  }
+  .aboutContainer:nth-child(even) .aboutImg {
+    margin-right: 0;
+  }
+  .aboutContainer:nth-child(odd) .aboutImg {
+      margin-left: 0;
+  }
+
+  .bar{
+    height: 200px;
+    background-size: 90%;
+  }
+  .bar:after{
+    width: 10px;
+    height: 10px;
+  }
+  .year{
+    font-size: 24px;
+    text-align: left;
+  }
+  .volume p{
+    font-size:12px;
+  }
+  .cool .container {
+    padding-bottom: 50px;
+  }
+  .slider div {
+     margin: 0; 
+  }
+  .blogText .heading{
+    font-size: 18px;
+  }
+  .blogHeading {
+    font-size: 14px;
+}
+  .blogText .text {
+    font-size: 12px;
+  }
+  .blogWrapper img {
+    width: 110px;
+  }
+  .blogWrapper img {
+    width: 93px;}
+  .join h2 {
+    font-size: 32px;
+    max-width: 300px;}
+  .joinBtn {
+    font-size: 14px;}
+  .joinBtn span{
+    width: 24px;
+    height: 24px;
+  }
+  .footerMenu{
+    justify-content: space-between;
+  }
+   /*Team*/
+   .ninjaProfile {
+    flex-basis: 50%;
+  }
+  .ninjaProfile{
+    margin-bottom: 30px;
+  }
+  .ninjaProfile img{
+    margin-bottom: 10px;
+  }
+}
+/************************* 
+     Max-width:414px
+*************************/
+@media (max-width: 414px) {
+  /*Team*/
+  .positionsContainer>div{
+    max-width: 100%;
+  }
+}
